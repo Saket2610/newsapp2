@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".About_Help_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_toolbar_layout"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="0dp"
+            android:background="#FFFFFF"
+            android:id="@+id/toolbar">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:textSize="20sp"
+                    android:id="@+id/main_title"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:visibility="visible"
+                    android:textColor="#03A9F4">
+
+                </TextView>
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_about_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="10dp"
+        android:layout_below="@id/main_toolbar_layout"
+        android:padding="10dp"
+        android:text="@string/about_text"
+        android:textSize="20sp"
+        android:visibility="gone">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_help"
+        android:layout_below="@id/main_toolbar_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/help_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="How To Use The App ?"
+            android:textColor="#03A9F4"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:padding="10dp"
+            android:text="1.)  Open The App"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:padding="10dp"
+            android:text="2.)  By-default you are on home and you will see all types of news here"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:padding="10dp"
+            android:text="3.)  You can click or swipe between screen to move on specific type of news categories"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:padding="10dp"
+            android:text="3.)  Just click on any news to see entire news with details"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="10dp"
+            android:padding="10dp"
+            android:text="Thank You"
+            android:textSize="15sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

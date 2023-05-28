@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">newsapp2</string>
+    <string name="about_text">This app is News app which help to show the latest news from all
+    over the world. This News continuously update news automatically. The All data of the news come from an News API.
+    This website providing 200 request per day for free of cost and then it will be paid.
+    Main Languages used inside this app is JAVA which is for Programming and XML for designing.
+    Retrofit is used inside the application to make Network Request and GSON converter is used to convert JSON data into normal data.
+    I Overall enjoy the whole process while making this application.
+    Thank You.</string>
+</resources>
